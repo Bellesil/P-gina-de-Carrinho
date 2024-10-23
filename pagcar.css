@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(171, 83, 177, 0.943);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.total {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e84118;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Menu Dropdown */
+header {
+    background: #c87dbe;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #de78dbde;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(209, 80, 80, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+/* Estilo do Slider */
+.slider {
+    position: relative;
+    max-width: 2080px;
+    height: 950px;
+    margin: auto;
+    overflow: hidden;
+    position: center;
+    margin-bottom: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 20s ease-in-out;
+    width:100;
+    animation: slideAnimation 25s infinite;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    width: 100%;
+ margin: 0;
+ padding: 0;
+}
+/*estilo geral do footer*/
+footer{
+    background-color: rgba(158, 62, 143, 0.461);
+    color: rgb(239, 233, 233);
+    padding: 40px 0;
+    font-family: "Josefin Sans", sans-serif;
+bottom: 0;
+  position: relative;
+  font-style: 14px;
+    }
+ 
+    .footer-container{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+ 
+    .footer-section{
+        flex-basis: 23%; /*faz com que as seçoes ocupem 23% da largura, com espaço para margens*/
+        margin-bottom: 20px;
+    }
+ 
+    .footer-section h4{
+        margin-bottom: 15px;
+        font-size: 18px;
+        color: rgba(116, 35, 160, 0.292);
+    }
+ 
+    .footer-section p, .footer-section ul{
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+ 
+    .footer-section ul{
+        list-style-type: none;
+    }
+ 
+    .footer-section ul li{
+        margin-bottom: 10px;
+    }
+ 
+    .footer-section ul li a{
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+ 
+    .footer-section ul li a:hover{
+         color: rgb(84, 75, 75);
+    }
+ 
+    .social-links a{
+        display: inline-block;
+        margin-right: 10px;
+        color: rgb(252, 248, 248);
+        text-decoration: none;
+        transition: color 0.3s;
+       align-items: flex-end;
+    }
+ 
+    .social-links a:hover{
+        color: black;
+    }
+ 
+    .footer-bottom{
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px 0;
+        border-top: 1px solid #b12fd8;
+        font-size: 14px;
+    }
+ 
+    .footer-bottom p{
+        margin: 0;
+    }
+ 
+
+
